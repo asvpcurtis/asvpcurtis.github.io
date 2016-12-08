@@ -59,12 +59,13 @@ body {
     color: #c50000;
     cursor: pointer;
 }
+
 .menu ul {
     height: auto;
     width: auto;
     margin: 0;
     padding: 0;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
 }
 
@@ -91,12 +92,22 @@ body {
     position: relative;
     box-shadow: 0px 0px 8px 2px #101010;
 }
+
 .content p {
     color: #c5c5c5;
     padding-left: 1vw;
     padding-right: 1vw;
     font-family: "Gentium Basic";
     font-size: 1.5vw;
+}
+@media only screen and (max-width: 500px) {
+    .content p {
+        color: #c5c5c5;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        font-family: "Gentium Basic";
+        font-size: 12px;
+    }
 }
 .footer {
     width: 100%;
