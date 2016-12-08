@@ -52,13 +52,12 @@ body {
     font-size: 2vw;
     font-family: "Open Sans";
     margin: 0 0 0 0;
+    
 }
-.menu a {
-    color: #c5c5c5;
-    text-decoration: none;
-}
-.menu a:hover {
-    color: #c50000
+
+.menu p:hover {
+    color: #c50000;
+    cursor: pointer;
 }
 .menu ul {
     height: auto;
