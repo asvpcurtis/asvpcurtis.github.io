@@ -1,6 +1,10 @@
 $(document).ready(function(){
 	$('#mainNavBar > ul > li').click(function(){
-		$(this).parent().children().removeClass('active')
-        $(this).addClass('active')
+		if (!$(this).hasClass('dropdown'))
+		{
+			$(this).parent().children().removeClass('active')
+			$(this).addClass('active')
+		}
 	});
+	$('.copy').text('Copyright © ' + new Date().getFullYear() + ' Curtis Barlow-Wilkes')
 });
