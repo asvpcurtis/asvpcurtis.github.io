@@ -1289,6 +1289,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  font-family: "Gentium basic"
 }
 .lead {
   margin-bottom: 20px;
@@ -5818,6 +5819,9 @@ button.list-group-item-danger.active:focus {
 }
 .embed-responsive-4by3 {
   padding-bottom: 75%;
+}
+.embed-responsive-custom {
+  padding-bottom: 89vh;
 }
 .well {
   min-height: 20px;
