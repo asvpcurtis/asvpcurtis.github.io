@@ -1,4 +1,23 @@
-body > .container
+.row-divider
 {
-    padding-top: 60px;
+    box-shadow: 0 0 15px #000000;
+    width: 100% - 20px;
+    margin-bottom: 20px;
+    height: 3px;
+    background: #c50000;
+    border-radius: 3px;
+}
+.jumbotron {
+    margin-bottom: 15px;
+    background-image: url(../img/jumboimage.png);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px #000000;
+}
+.jumbotron h1 {
+    color: #222222
+}
+.jumbotron p {
+    color: #222222
 }
