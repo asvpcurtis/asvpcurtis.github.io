@@ -21,3 +21,45 @@
 .jumbotron p {
     color: #222222
 }
+html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push {
+          height: 75px;
+      }
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #222222;
+        box-shadow: 0 0 13px #000000; 
+        border-top:3px solid #c50000 !important;
+        text-align: center;
+      }
+      #footer .container p {
+          color: #c5c5c5;
+          padding-top: 10px;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
