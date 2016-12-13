@@ -51,7 +51,8 @@ html,
       }
       #footer .container p {
           color: #c5c5c5;
-          padding-top: 10px;
+          font-size: 18px;
+          padding-top: 16px;
       }
 
 }
