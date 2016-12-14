@@ -8,7 +8,7 @@ $(document).ready(function(){
 			$(this).addClass('active')
 		}
     if ($(this).is('#home')) {goHome();}
-    if ($(this).is('#othello')) {goOthello();}
+    if ($(this).is('#projects')) {goProjects();}
 	});
 	$('.copy').text('Copyright © ' + new Date().getFullYear() + ' Curtis Barlow-Wilkes')
 });
@@ -16,10 +16,10 @@ $(document).ready(function(){
 function goHome()
 {
   $('.home-content').show()
-  $('.othello-content').hide()
+  $('.projects-content').hide()
 }
-function goOthello()
+function goProjects()
 {
   $('.home-content').hide()
-  $('.othello-content').show()
+  $('.projects-content').show()
 }
