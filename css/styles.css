@@ -9,11 +9,16 @@
 }
 .jumbotron {
     margin-bottom: 15px;
-    background-image: url(../img/jumboimage.png);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0 0 10px #000000;
+}
+.hometron {
+    background-image: url(../img/jumboimage.png);
+}
+.othellotron {
+    background-image: url(../img/jungleimage.png);
 }
 .jumbotron h1 {
     color: #222222;
